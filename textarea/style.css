@@ -1,0 +1,29 @@
+.before {
+    color: blue;
+    border: solid 1px;
+    border-radius: 10px;
+    width: fit-content;
+}
+
+textarea {
+    border: solid 0px;
+    border-radius: 10px;
+    color: blue;
+    outline: none;
+    height: fit-content;
+}
+
+textarea::-webkit-resizer {
+    display: none;
+}
+
+.after {
+    color: red;
+}
+
+.counter {
+    width: fit-content;
+    margin: 0;
+    margin-left: auto;
+    padding: 3px;
+}
